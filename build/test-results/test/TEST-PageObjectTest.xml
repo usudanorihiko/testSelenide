@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PageObjectTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-01-29T08:49:01" hostname="UsudanoMacBook-Pro.local" time="4.951">
+  <properties/>
+  <testcase name="ページオブジェクトを利用してgoole検索を実施()" classname="PageObjectTest" time="4.951"/>
+  <system-out><![CDATA[<div class="g">qiita.com › Java
+Selenide～Javaで超簡単・簡潔にUIテストを書く～ - Qiita
+2019/01/14 - Selenideを触ってみたら簡単なUIテストがサクッと書けて感動したので、使い方をまとめました。 Selenideとは. SelenideはUIテストのためのSeleniumラッパーです。 Selenide: concise UI tests in Java http://selenide.org/. Java界隈でUI ...</div>
+]]></system-out>
+  <system-err><![CDATA[1 29, 2020 5:49:01 午後 com.codeborne.selenide.drivercommands.LazyDriver getAndCheckWebDriver
+情報: No webdriver is bound to current thread: 10 - let's create a new webdriver
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 4043
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+1 29, 2020 5:49:03 午後 org.openqa.selenium.remote.ProtocolHandshake createSession
+情報: Detected dialect: W3C
+1 29, 2020 5:49:03 午後 com.codeborne.selenide.webdriver.BrowserResizer adjustBrowserSize
+情報: Set browser size to 1366x768
+1 29, 2020 5:49:03 午後 com.codeborne.selenide.webdriver.WebDriverFactory logBrowserVersion
+情報: BrowserName=chrome Version=79.0.3945.130 Platform=MAC
+1 29, 2020 5:49:03 午後 com.codeborne.selenide.webdriver.WebDriverFactory createWebDriver
+情報: Selenide v. 5.1.0
+1 29, 2020 5:49:03 午後 com.codeborne.selenide.webdriver.WebDriverFactory logSeleniumInfo
+情報: Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+1 29, 2020 5:49:03 午後 com.codeborne.selenide.drivercommands.CreateDriverCommand createDriver
+情報: Create webdriver in current thread 10: ChromeDriver -> ChromeDriver: chrome on MAC (f4d41822586720f25af73e56c15a5542)
+]]></system-err>
+</testsuite>
